@@ -1,0 +1,14 @@
+Sub WorksheetLoop2()
+
+         ' Declare Current as a worksheet object variable.
+         Dim Current As Worksheet
+
+         ' Loop through all of the worksheets in the active workbook.
+         For Each Current In Worksheets
+
+            ' Insert your code here.
+            ' This line displays the worksheet name in a message box.
+            MsgBox Current.Name
+         Next
+
+      End Sub
